@@ -1,0 +1,24 @@
+Day1:
+If you ever get stuck, use GOOGLE! Stack overflow is another great site.
+
+Forking your assaignments allows you to save your own assaignments
+print() (allows you to print a statement
+input() (allows print to recieve an input)
+len() (aquire the length of string)
+
+Strings "" or ''
+
+String Manipulation
+String Concatenation is done with the "+" sign.
+e.g. print("Hello " + "world")
+New lines can be created with a backslash and n.
+
+Python Variables
+
+Final Project:
+Band Name Generator
+#1. Create a greeting for your program.
+city = input("Welcome to the band name generator! What city are you from?\n")
+pet = input("What is your pets name?\n")
+bandname = city + " " + pet
+print(f"Your bandname could be {bandname}")
