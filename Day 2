@@ -1,0 +1,67 @@
+ Data Types 
+ 
+  - Strings 
+ "Hello!"
+ Locating a character:
+ print("Hello"[0])
+ The number determines which character is pulled. It always starts at 0
+ As long as a number is within a "" it will be treated as a string
+ 
+  - Integers
+  Whole numbers without decimal places
+  To declare, just type number
+  Commas to separate large numbers like 1,000,000 would be 1_000_000 (Helps humans visualize big #'s)
+ len() function doesn't work directly with integers. Need to assaign a variable to the integer i.e.:
+ number12 = 12
+ 
+  - Floats 1.2 
+ A floating decimal
+ float()
+ 
+  - Boleans
+  Either True, or False. Always with a capital first letter
+  
+   - Type function
+  type()
+  enter variable into type funtion and run console to check the class of your variable i.e.:
+  print(type(num_chart))
+  
+   - Type Conversion / Casting
+  Changing integers into string with str()
+  new_num_char = str(num_char)
+  For instance if num_char = 12
+  You can now print
+  print("Your name has " + new_num_char + "characters.")
+  You can also convert a string to float or integer like so:
+  print(70 + float("100.5")
+  the float("100.5) is being converted to a float, thus making it compatible in the above equation rather than just printing 70100.5
+   - Mathmatics 
+  + addition
+  - subtraction
+  * multiplication
+  / division
+  ** power
+  % muso
+  PEMDASLR (Parentheses, exponents, multiplications, division, addition, subtraction) Left to right
+   - Rounding
+   round()
+   You can specify to a precisce digit by using a comma i.e round(8.3333333, 2) = 5
+   
+    - Floor division //
+    If you want an integer right away, just use // i.e. round(8.33333333 // 3) = 2
+    
+    - Saving equations into variables
+    i.e.
+    result = 4/2
+    reult /= 2
+    result = 1
+    
+     - Shorthand for scores
+     i.e. score = 0
+     instead of score = score +1
+     you can do score += 1, -= 1, *=1, /=1, **=1
+     
+      - F strings
+      For printing different datatypes at once
+      type your f infront of your quotes
+      set variable inside {}
